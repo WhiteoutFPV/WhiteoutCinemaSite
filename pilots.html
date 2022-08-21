@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>| Whiteout Cinema</title>
+        <link rel="shortcut icon" type="image/x-icon" href="Images\favicon\android-chrome-192x192.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="\CSS\style.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="navbar" name="top">
+                <a class="navbutton"href="index.html">Home</a>
+                <a class="navbutton" href="showreel.html">Showreel</a>
+                <a class="navbutton" href="contact.html">Contact</a>
+                <a class="navbutton" href="about.html">About</a>
+                <a class="navbutton" id="pilots" onclick='window.scrollTo({top: 0, behavior: "smooth"})'>Meet the Pilots</a>
+                <a class="navbutton" id="whiteoutcinema" onclick='window.scrollTo({top: 0, behavior: "smooth"})'>Whiteout Cinema</a>
+            </div>
+            <h2 style="margin: 0px; padding: .5rem;">congrats you found scuffed web development. https://youtu.be/dQw4w9WgXcQ</h2>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="cell" id="mobile">
+                    <img src="Images/pinefpv.jpg">
+                </div>
+                <div class="cell">
+                    <h3>PineFPV is an FPV and cinematic drone pilot, as well as an amateur web developer and Blender/CAD enthusiast.</h3>
+                </div>
+
+                <div class="cell" id="desk">
+                    <img src="Images/pinefpv.jpg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cell" id="mobile">
+                    <img src="Images/some1.jpg">
+                </div>
+
+                <div class="cell">
+                    <h3>______ can be described these ways.</h3>
+                </div>
+
+                <div class="cell" id="desk">
+                    <img alt="no image" src="Images/some1.jpg">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <a id="bottomnav" href="https://www.youtube.com/channel/UC9SaAEGqPCaKoIj1M7LA8pg" target="_blank">Youtube</a><p id="bottomnav"> | </p><a id="bottomnav" href="https://github.com/WhiteoutFPV" target="_blank">Github</a><p id="bottomnav"> | </p><a id="bottomnav" href="https://www.facebook.com/Whiteout-Cinema-111323044901872" target="_blank">Facebook</a><p id="bottomnav"> | </p><a id="bottomnav" href="contact.html">Contact</a>
+        </footer>
+        
+        <script src="index.js" async defer></script>
+
+        <style>
+            .container {
+                width: 100%;
+                padding: 2rem;
+                display: block;
+                box-sizing: border-box;
+            }
+
+            .row {
+                display: table-row;
+                width: 100%;
+                padding: 1rem;
+            }
+
+            .cell {
+                display: inline-block;
+                width:50%;
+                box-sizing: border-box;
+                vertical-align: top;
+                padding: 2rem;
+            }
+
+            @media screen and (max-width: 455px){
+                h1 {
+                    font-weight: 400;
+                }
+
+                h2 {
+                    font-size: 100%;
+                    padding: 1rem;
+                }
+
+                h3 {
+                    font-size: 150%;
+                }
+    
+                .navbutton {
+                    width: 24%;
+                    box-sizing: border-box;
+                    margin: 0px;
+                    text-align: center;
+                    padding: 1rem;
+                }
+    
+                .container {
+                    align-items: center;
+                    align-content: center;
+                    display: block;
+                    padding: 2rem 2rem 0rem;
+                }
+    
+                .row {
+                    display: block;
+                    align-items: center;
+                    align-content: center;
+                    padding: 0rem 2rem;
+                    box-sizing: border-box;
+                }
+    
+                .cell {
+                    align-items: center;
+                    align-content: center;
+                    display: block;
+                    width: 100%;
+                    padding: 2rem 0rem;
+                }
+    
+                #skip {
+                    padding: 2rem 4rem;
+                }
+            }
+        </style>
+    </body>
+</html>

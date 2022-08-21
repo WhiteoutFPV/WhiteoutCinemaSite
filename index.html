@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<!--cd C:\Users\fourt\Downloads\ngrok-v3-stable-windows-amd64-->
+<!--ngrok http 5500-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>| Whiteout Cinema</title>
+        <link rel="shortcut icon" type="image/x-icon" href="Images\favicon\android-chrome-192x192.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="\CSS\style.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="navbar" name="top">
+                <a class="navbutton" onclick='window.scrollTo({top: 0, behavior: "smooth"})'>Home</a>
+                <a class="navbutton" href="showreel.html">Showreel</a>
+                <a class="navbutton" href="contact.html">Contact</a>
+                <a class="navbutton" href="about.html">About</a>
+                <a class="navbutton" id="pilots" href="pilots.html">Meet the Pilots</a>
+                <a class="navbutton" id="whiteoutcinema" onclick='window.scrollTo({top: 0, behavior: "smooth"})'>Whiteout Cinema</a>
+            </div>
+            <h2 style="margin: 0px; padding: .5rem;">congrats you found scuffed web development. https://youtu.be/dQw4w9WgXcQ</h2>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="cell" id="first">
+                    <h1>Whiteout Cinema - Drone Photography and Videography based out of Teller County, Colorado</h1>
+                </div>
+                <div class="cell" id="second">
+                    <a id="showreellink" href="showreel.html">Watch the Showreel</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="cell">
+                    <div class="cell" id="mobile">
+                        <img src="Images/source_one.jpg">
+                    </div>
+                    <h3 id="mainpagetext">Custom, purpose-built FPV drones for high-speed, cinematic shots including chase footage and fly-throughs.</h3>
+                </div>
+                <div class="cell" id="desk">
+                    <img src="Images/source_one.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <img src="Images/tinyhawk.jpg">
+                </div>
+                <div class="cell">
+                    <h3 id="mainpagetext">Smaller, more manueverable drones for tight fly-throughs in narrow spaces.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell" id="mobile">
+                    <img src="Images/skydio.jpg">
+                </div>
+                <div class="cell">
+                    <h3 id="mainpagetext">Stable, smart drones for automated fly-throughs, pre-planned flights, and high aerial photography like below.</h3>
+                </div>
+                <div class="cell" id="desk">
+                    <img src="Images/skydio.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <img src="Images/Quarry_Birds_Eye.jpg">
+                </div>
+                <div class="cell">
+                    <h3 id="mainpagetext">High aerial photos and video to capture landscapes, check property lines, and give new perspectives.</h3>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <a id="bottomnav" href="https://www.youtube.com/channel/UC9SaAEGqPCaKoIj1M7LA8pg" target="_blank">Youtube</a><p id="bottomnav"> | </p><a id="bottomnav" href="https://github.com/WhiteoutFPV" target="_blank">Github</a><p id="bottomnav"> | </p><a id="bottomnav" href="https://www.facebook.com/Whiteout-Cinema-111323044901872" target="_blank">Facebook</a><p id="bottomnav"> | </p><a id="bottomnav" href="contact.html">Contact</a>
+        </footer>
+        
+        <script src="index.js" async defer></script>
+    </body>
+
+    <style>
+        .container {
+            width: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: table-row;
+            width: 100%;
+        }
+
+        .cell {
+            display: inline-block;
+            width:50%;
+            box-sizing: border-box;
+            vertical-align: top;
+            padding: 2rem;
+        }
+
+        #first {
+            width: 70%;
+        }
+
+        #second {
+            width: 30%;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 455px){
+            h1 {
+                font-weight: 400;
+            }
+
+            .navbutton {
+                width: 24%;
+                box-sizing: border-box;
+                margin: 0px;
+                text-align: center;
+                padding: 1rem;
+            }
+
+            .container {
+                align-items: center;
+                align-content: center;
+                display: block;
+                padding: 0rem;
+            }
+
+            .row {
+                display: block;
+                align-items: center;
+                align-content: center;
+                padding: 2rem;
+                box-sizing: border-box;
+            }
+
+            .cell {
+                align-items: center;
+                align-content: center;
+                width: 100%;
+                padding: 0rem;
+            }
+
+            #showreellink {
+                font-weight: 400;
+                font-size: 100%;
+            }
+
+            #mobile {
+                display: inline-block;
+            }
+
+            #first {
+                width: 100%;
+            }
+
+            #second {
+                padding: 2rem 0rem 0rem;
+                width: 100%;
+                align-content: center;
+                text-align: center;
+            }
+        }
+    </style>
+</html>
